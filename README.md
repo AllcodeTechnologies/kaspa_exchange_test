@@ -6,3 +6,11 @@ Basically you need to check 0. You have to work on sendKaspa api
 2. Code The Api in such a way that i can send 0.009 KAS, or if not possible to send 0.009 Kas, make it any amount lower Than 0.1 KAS. Ofcourse i will be sending more than 0.1 KAS also but i dont think that will be a problem
 3. I am not saying modify the code i have shared. I just need the api, do whatever you like .
 4. I will provide you the Coin For Testing.
+
+
+Currently I am getting an error Response from KAspa
+
+{
+    "status": false,
+    "error": "Rejected transaction 00c53bebdcbe4c8083e45d9ef80eb3e687e73dc3561835e429a773cb3e50e39e: transaction 00c53bebdcbe4c8083e45d9ef80eb3e687e73dc3561835e429a773cb3e50e39e is not standard: transaction mass in context (including storage mass) of 10000010 is larger than max allowed size of 100000"
+}
