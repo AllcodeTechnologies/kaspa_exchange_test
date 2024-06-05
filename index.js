@@ -1,10 +1,10 @@
 //module imports
-const express = require("express");
-const cors = require("cors");
-const morgan = require("morgan");
-const dotenv = require("dotenv");
-const createHttpError = require("http-errors");
-const kaspaRoute = require("./routes/kaspa_route");
+import express from "express";
+import cors from "cors";
+import morgan from "morgan";
+import dotenv from "dotenv";
+import createHttpError from "http-errors";
+import kaspaRoute from "./routes/kaspa_route.js";
 
 //app configurations
 let app = express();

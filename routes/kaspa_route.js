@@ -1,16 +1,16 @@
-const express = require("express");
-const {
-  generateWallet,
-  generateWalletFromMnemonic,
-  sendKaspa,
+import express from "express";
+import {
   testApi,
-} = require("../controllers/kaspa_controller");
+  generateWallet,
+  checkBalance,
+  sendKaspa,
+} from "../controllers/kaspa_controller.js";
 
 const router = express.Router();
 
 router.get("/test", testApi);
 router.post("/generateWallet", generateWallet);
-router.post("/generateWalletFromMnemonic", generateWalletFromMnemonic);
+router.post("/checkBalance", checkBalance);
 router.post("/sendKaspa", sendKaspa);
 
-module.exports = router;
+export default router;
